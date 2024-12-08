@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #78597841;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.contact-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #007bff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-item {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact-item a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #0056b3;
+}
+
+.contact-item h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.map-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.map-container iframe {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+}
+
+.subscribe-section {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 40px;
+}
+
+.subscribe-section h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.subscribe-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscribe-section input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.subscribe-section button {
+    padding: 10px 20px;
+    background-color: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.subscribe-section button:hover {
+    background-color: #333;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ffd700;
+}
